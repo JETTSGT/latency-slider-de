@@ -82,7 +82,7 @@
                 postInstall =
                   (if (old ? postInstall) && (old.postInstall != false) then old.postInstall else "")
                   + (pkgs.lib.optionalString (mode == "build") ''
-                    mv $out/lib/libJetts4FrameMaxSliderforSUVersion1304.nro $out/lib/liblatency_slider_de_classic.nro
+                    mv $out/lib/libJetts_4Frame_Max_Slider_for_SU_Version_1304.nro $out/lib/liblatency_slider_de_classic.nro
                   '');
               };
             }
